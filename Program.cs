@@ -8,7 +8,6 @@ namespace Shape
     {
 
 
-
         private class ShapeValidation
         {
             public static void CricleValidation(double r)
@@ -28,7 +27,7 @@ namespace Shape
         public class ShapeData
         {
 
-            public static bool IsTrianglePryamoug(double a, double b, double c)
+            public static bool IsTriangleRectangular(double a, double b, double c)
             {
                 ShapeValidation.TriangleValidation(a, b, c);
 
